@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="image_img" src="https://api.yingjoy.cn/pic/?t=bing&w=1366" mode="aspectFill">
+  </image>
+  <view class='con'>
+    <view class='time'>
+      <text class='my'>{{y}}.{{m}}. </text>
+      <text class='day'> {{d}}</text>
+    </view>
+    <view class='lan'>
+      <text class='h'>「</text>
+      <text class='p'>{{motto}}</text>
+      <text class='a'>--{{author.length > 10 ? author.substring(0,10).concat('...'): author}}</text>
+      <text class='b'>」</text>
+    </view>
+  </view>
+</view>
