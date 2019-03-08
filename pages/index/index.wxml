@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <image class="image_img" src="https://api.yingjoy.cn/pic/?t=bing&w=1366" mode="aspectFill">
+  <image class="image_img" src="http://api.yingjoy.cn/pic/?t=bing&w=1366" mode="aspectFill">
   </image>
   <view class='con'>
     <view class='time'>
